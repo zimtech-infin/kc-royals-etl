@@ -1,0 +1,47 @@
+# 🔹 Python / Django
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+*.log
+*.pot
+*.mo
+*.pid
+venv/
+.venv/
+.env
+.env.*
+migrations/**/__pycache__/
+media/
+staticfiles/
+celerybeat-schedule
+
+# 🔹 React / Node.js
+node_modules/
+build/
+dist/
+.next/
+.npm/
+.yarn/
+.yarn-cache/
+*.lock
+
+# 🔹 Docker
+docker-compose.override.yml
+.dockerignore
+*.pid
+logs/
+volumes/
+
+# 🔹 Nginx
+nginx/conf.d/*.swp
+nginx/logs/
+nginx/tmp/
+
+# 🔹 Editors / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
