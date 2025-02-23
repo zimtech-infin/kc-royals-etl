@@ -1,0 +1,17 @@
+# File: requirements.txt
+# Created by: K. Zimmerman
+# Project: kc_royals_backend
+# Description:
+# - Defines all required Python dependencies for the backend.
+# - Used for setting up the virtual environment.
+
+Django==5.1.6
+djangorestframework==3.15.2
+djangorestframework-simplejwt==5.4.0
+django-cors-headers==4.7.0
+django-filter==25.1
+PyJWT==2.10.1
+pytz==2025.1
+sqlparse==0.5.3
+numpy==2.2.3
+pandas==2.2.3

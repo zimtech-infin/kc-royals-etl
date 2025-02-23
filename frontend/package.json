@@ -1,0 +1,43 @@
+{
+  "name": "kc-royals-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for KC Royals Player Stats",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start --verbose",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "clean-start": "rm -rf node_modules/.cache && rm -rf public/build && npm start"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.2",
+    "chart.js": "^4.3.3",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.2",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0"
+  }
+}
